@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="logincss.css">
+</head>
+<body>
+    <center><div class="cajaformu">
+        <form class="Formulario" id="envio" method="POST" action="principal.html">
+            <div>
+                <label class="contenido" for="nombre">nombre</label>
+                <br>
+                <input class="contenido" autocomplete="off" type="text" id="nombre" name="nombre"required>
+                <br>
+                <label class="contenido" for="password">contraseña</label>
+                <br>
+                <input class="contenido" type="password" id="contraseña" name="contraseña"required>
+                <br>
+                <input class="contenido" type="submit">
+            </div></center>
+
+            <script>
+                if(nombre != "" && contraseña !=""){
+                    $("#envio")
+                }
+                else{
+
+                }
+            </script>
+
+
+
+        </form>
+    </center></div>
+    
+</body>
+</html>
